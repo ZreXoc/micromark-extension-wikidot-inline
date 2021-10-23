@@ -1,31 +1,15 @@
 {
-  "name": "micromark-extension-gfm-strikethrough",
+  "name": "micromark-extension-wikidot-inline",
   "version": "1.0.3",
-  "description": "micromark extension to support GFM strikethrough",
+  "description": "micromark extension to support Wikidot inline syntax",
   "license": "MIT",
   "keywords": [
     "micromark",
     "micromark-extension",
-    "strikethrough",
-    "strike",
-    "through",
-    "del",
-    "delete",
-    "deletion",
-    "gfm",
-    "markdown",
-    "unified"
+    "wikidot",
+    "scp"
   ],
-  "repository": "micromark/micromark-extension-gfm-strikethrough",
-  "bugs": "https://github.com/micromark/micromark-extension-gfm-strikethrough/issues",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/unified"
-  },
-  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
-  "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
-  ],
+  "author": "ZreX <zeexoc@outlook.com> (https://zrex.top)",
   "sideEffects": false,
   "type": "module",
   "main": "index.js",
@@ -68,14 +52,6 @@
     "test-api": "node --conditions development test/index.js",
     "test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node --conditions development test/index.js",
     "test": "npm run build && npm run format && npm run test-coverage"
-  },
-  "prettier": {
-    "tabWidth": 2,
-    "useTabs": false,
-    "singleQuote": true,
-    "bracketSpacing": false,
-    "semi": false,
-    "trailingComma": "none"
   },
   "xo": {
     "prettier": true,

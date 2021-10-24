@@ -2,5 +2,14 @@
   "cSpell.words": [
     "Strikethrou",
     "Strikethrough"
-  ]
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    // "dev": true,
+    // "lib": true,
+  }
 }

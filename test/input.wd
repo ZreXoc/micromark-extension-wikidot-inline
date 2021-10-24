@@ -1,0 +1,13 @@
+balanced:
+
+*one*
+**two**
+***three***
+**constant****constant**
+
+unbalanced:
+
+**two/three***
+**two/four****
+***three/four****
+**constant*****constant**

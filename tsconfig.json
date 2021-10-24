@@ -1,16 +1,25 @@
 {
-  "include": ["dev/**/*.js", "test/**/*.js"],
+  "include": [
+    "./src",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
   "compilerOptions": {
     "target": "ES2020",
-    "lib": ["ES2020"],
+    "lib": [
+      "ES2020"
+    ],
     "module": "ES2020",
     "moduleResolution": "node",
     "allowJs": true,
     "checkJs": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
+    // "declaration": true,
+    // "emitDeclarationOnly": true,
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
-    "strict": true
+    // "skipLibCheck": true,
+    "strict": true,
+    "outDir": "./dev"
   }
 }
